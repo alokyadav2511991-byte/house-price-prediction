@@ -26,7 +26,7 @@ for i in final_X:
   result = st.sidebar.slider(f'select {i} value',min_value,max_value)
   all_value.append(result)
 
-user_X = scalar.transforn([all_value])
+user_X = scalar.transform([all_value])
 
 @st.cache_data
 def ml_model(X,y):
@@ -49,6 +49,7 @@ st.markdown('''**Desigh and Developed by Rishabh Singh**''')
 
 
   
+
 
 
 
