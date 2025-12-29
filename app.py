@@ -42,13 +42,14 @@ final_price = round(house_price*100000,2)
 
 with st.spinner('predicting house price'):
     import time
-    time.sleep(20)
+    time.sleep(2)
 
 st.success(f'estimsted house priceis:${final_price}')
 st.markdown('''**Desigh and Developed by Rishabh Singh**''')
 
 
   
+
 
 
 
