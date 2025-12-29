@@ -1,4 +1,4 @@
-from sklearn.ensemble import 
+from sklearn.ensemble import RandomForestRegressor 
 import streamlit as st
 import pickle
 from sklearn.preprocessing import StandardScaler
@@ -49,6 +49,7 @@ st.markdown('''**Desigh and Developed by Rishabh Singh**''')
 
 
   
+
 
 
 
