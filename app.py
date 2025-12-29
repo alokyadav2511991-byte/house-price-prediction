@@ -40,7 +40,7 @@ house_price = model.predict(user_X)[0]
 
 final_price = round(house_price*100000,2)
 
-with st.spinner('predicting house price):
+with st.spinner('predicting house price'):
     import time
     time.sleep(20)
 
@@ -49,6 +49,7 @@ st.markdown('''**Desigh and Developed by Rishabh Singh**''')
 
 
   
+
 
 
 
