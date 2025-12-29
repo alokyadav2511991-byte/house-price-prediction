@@ -23,7 +23,7 @@ all_value = []
 for i in final_X:
   min_value = final_X[i].min()
   max_value = final_X[i].max()
-  result = st.sidebar.slider(f'select {i} value',min_value,max_valur)
+  result = st.sidebar.slider(f'select {i} value',min_value,max_value)
   all_value.append(result)
 
 user_X = scalar.transforn([all_value])
@@ -49,6 +49,7 @@ st.markdown('''**Desigh and Developed by Rishabh Singh**''')
 
 
   
+
 
 
 
